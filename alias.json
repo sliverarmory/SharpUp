@@ -1,0 +1,25 @@
+{
+    "name": "SharpUp",
+    "version": "v0.0.0",
+    "command_name": "sharpup",
+    "original_author": "GhostPack",
+    "repo_url": "https://github.com/sliverarmory/SharpUp",
+    "help": "C# port of various PowerUp functionality",
+    "entrypoint": "Main",
+    "allow_args": true,
+    "default_args": "-h",
+    "is_reflective": false,
+    "is_assembly": true,
+    "files": [
+      {
+        "os": "windows",
+        "arch": "amd64",
+        "path": "SharpUp.exe"
+      },
+      {
+        "os": "windows",
+        "arch": "386",
+        "path": "SharpUp.exe"
+      }
+    ]
+  }
